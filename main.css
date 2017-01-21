@@ -1,0 +1,103 @@
+@font-face {
+  font-family: 'helvetica neue neue', sans-serif;
+}
+
+.body {
+  background: url(images/trump1.gif) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  letter-spacing:-0.05em;
+}
+
+
+.headline {
+    font-family: "helvetica neue", sans-serif;
+    font-size: 9em;
+    color: #ffffff;
+    margin-top: 0.2em;
+    align-content: center;
+    text-shadow: -5px 5px #4a4a4a;
+}
+
+img {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+.p {
+  font-family: "helvetica neue", sans-serif;
+  font-size: 2em;
+}
+
+.intro {
+    font-family: "helvetica neue", sans-serif;
+    font-size: 1.5em;
+    color: #00a293;
+    line-height: 1.4em;
+    margin-top: 1.3em;
+}
+
+.links {
+    font-family: "helvetica neue", sans-serif;
+    font-size: 2em;
+    color: #365066 !important;
+    line-height: 1.4em;
+    cursor:pointer
+}
+
+a {
+    color: #365066 !important;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+a:visited {
+    text-decoration: none !important;
+    display: none;
+}
+
+.underline:hover {
+    text-decoration: none !important;
+    color: #00a293;
+}
+
+.underline:visited {
+    text-decoration: none !important;
+}
+
+a, a:hover, a:active, a:visited {
+    text-decoration:none !important;
+}
+
+.underline {
+    border-bottom: solid 4px #00a293;
+    padding-bottom: 0px;
+}
+
+
+#special {
+    border-bottom: solid 8px #0000FF;
+}
+
+.cta {
+    font-size: 1em;
+    margin-top: 50%;
+    font-family: "helvetica neue", sans-serif;
+    color: #365066;
+    border: solid 4px #00a293;
+    padding: 1em;
+    box-shadow: -7px 7px 0px #365066;
+    background-color: #ffffff;
+}
+
+.back {
+    margin-bottom: 5em;
+}
+
+#wonderful {
+  color: #00a293;
+}
